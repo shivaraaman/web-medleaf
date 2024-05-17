@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capsule Shaped Task Bar</title>
+    <link rel="stylesheet" type="text/css" href="static\css\styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section id="Home">
+        <div class="container">
+            <div class="logo-container">
+                    <div class="logo">
+                        <a href="#Home">
+                        <img src="static\img\1715023145403.png" alt="Logo"></a>
+                    </div>
+                </div>
+                 <div class="background">
+        <!-- Green div box covering the header -->
+        <form class="file-upload" action="/process-image" method="POST" enctype="multipart/form-data" onsubmit="uploadImage(event)">
+            <table>
+                <tr> <!-- First row for h1 -->
+                    <td colspan="2"><h1>"Bridging Botany and Medicine, Leaf by Leaf."</h1></td> <!-- colspan="2" spans two columns -->
+                </tr>
+                <tr> <!-- Second row for buttons -->
+                    <td><input type="file" id="file" name="image" class="inputfile" /></td> <!-- First cell for input -->
+                    <td>
+                        <label for="file" class="curved-button">Choose File</label> <!-- Second cell for label -->
+                        <button type="submit" class="curved-button secondary">Upload</button> <!-- Third cell for button -->
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+                    
+                    
+    
+                    <div class="quarter-circle-holder">
+                        <img src="static\img\taro-7714366_1280.jpg" alt="Image">
+                    </div>
+                </div> <!-- Green div box covering the header -->
+                <div class="task-bar">
+                    <div id="heading">MedLeaf</div>
+                    <div>
+                        <a href="#Home" class="links"><img src="static\img\home.png" alt="homelogo"></a>
+                        <a href="#About" class="links"><img src="static\img\about.png" alt="homelogo"></a>
+                        <a href="#Contact" class="links"><img src="static\img\contact.png" alt="homelogo"></a>
+                    </div>
+                </div>
+        </div>
+    </section >
+
+
+    <section id="output-details">
+        <div class="content123">
+            <h1>HERE IS THE RESULT :</h1>
+        </div>
+        <div class="output-container">
+            <div class="output-box" id="info">
+                <h2>YOUR IMAGE</h2>
+            </div>
+            <div class="output-box2" id="info2">
+            </div>
+        </div>
+        <script src="static\js\spricts.js"></script>
+
+    </section>
+    
+        
+    
+
+      
+
+    <section id="About">
+        <div class="about-container">
+            <div class="about-content">
+                <div id="inner-text">
+                    <h2>About Us</h2>
+                <p>MedLeaf is dedicated to revolutionizing medical diagnostics through innovative technology. Our platform is designed to decode the intricate details of medical leaves swiftly and accurately, offering invaluable insights that empower both experts and beginners in understanding nature's pharmacy. With a user-friendly interface, we make the language of foliage accessible to all, ensuring that everyone can unlock the secrets of herbal medicine.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="Contact">
+        <div class="contact-container">
+            <div id="inner-text">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <div id="email">   
+                        <a href="mailto:examplemail@gmail.com">
+                                <img src="static\img\email.png" alt="Email icon" class="contact-mail">
+                        </a>
+                    </div id="github">
+                    <div>   
+                        <a href="https://github.com/shivaraaman/MedLeaf"><img src="static\img\github.png" alt="Github icon" class="contact-git">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+</body>
+</html>

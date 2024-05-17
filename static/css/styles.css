@@ -1,0 +1,385 @@
+.logo-container {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    text-align: center;
+}
+body{
+    background-color: #068432;
+}
+.logo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+.task-bar {
+    background-color:  #faefefc4;
+    /* Blue color, change as needed */
+    border-radius: 150px; /* Adjust the border radius to change the shape and thickness */
+    padding: 35px 250px; /* Add padding to the task bar */
+    margin: 0 auto; 
+    margin-top: 30px;/* Add margin to center horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1300px; /* Ensure relative positioning for z-index to work */
+}
+
+
+
+.task-bar .links img {
+    width: 30px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 50px; 
+    margin-left: 50px;/* Add margin to separate the images */
+}
+
+
+.task-bar .links:last-child img {
+    margin-right: 0;
+    
+     /* Remove margin from the last image to align with the right edge */
+}
+
+
+#heading{
+    margin: 0;
+    font-size: 35px; /* Adjust font size as needed */
+    font-family: 'Roboto Mono',sans-serif;
+    font-weight: bold; /* Make the text bold */
+    text-align: left; /* Align the text to the left */
+    margin-left: -200px;
+}
+
+
+
+.quarter-circle-holder {
+    width: 1000px; /* Set the width of the quarter circle */
+    height: 950px; /* Set the height of the quarter circle */
+    background-color: #fff; /* White background color */
+    border-top-right-radius: 5000px; /* Border radius for top-right corner */
+    overflow: hidden; /* Hide overflow content */
+    position: absolute; /* Position the holder absolutely */
+    top: 0; /* Align it to the top of the container */
+    left: 0; /* Align it to the left of the container */
+    transform: scaleY(-1); /* Flip vertically */
+}
+.quarter-circle-holder img {
+    width: 1000px; /* Make the image fill the container */
+    height: 1090px; /* Maintain aspect ratio */
+}
+
+
+
+/* Style for the common container */
+.container {
+    background-image: url("/static/img/bg-home.png");
+    background-size: cover; /* Scale the background image to cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 950px; /* Set the height of the container */
+    margin: 0; /* Reset margin */
+    position: absolute; /* Ensure absolute positioning */
+    top: 0; /* Align to the top of the viewport */
+    left: 0; /* Align to the left of the viewport */
+    width: 100%; /* Ensure full width */
+}
+
+h1 {
+    font-size: 70px !important; /* Adjust font size as needed */
+    font-family: 'Roboto Mono',sans-serif;
+    color: #fff; /* Specify Pacifico font family */
+    
+}
+
+
+
+
+.file-upload {
+    position: absolute !important;
+    top: 30%; /* Adjust as needed to move it further down */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: flex;
+    gap: 100px; /* Adjust the gap between buttons */
+}
+
+.file-upload {
+    margin-left: 400px; 
+    padding: 20px; /* Add padding for spacing */
+    max-width: 600px; /* Adjust max-width as needed */
+}
+table {
+    width: 100%; /* Make table fill its container */
+}
+
+td {
+    padding: 10px; /* Add padding for spacing between cells */
+}
+
+h1 {
+    margin: 0; /* Remove default margin for h1 */
+}
+
+
+
+/* Adjust button styles */
+.file-upload .curved-button {
+    background-color: rgb(42, 237, 35); /* Adjust button color */
+    color: white; /* Adjust text color */
+    border: none; /* Remove border */
+    padding: 21px 50px; /* Increase padding for larger button size */
+    border-radius: 30px; /* Adjust border radius */
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+    font-size: 24px; 
+    gap:50px/* Increase font size */
+}
+
+/* Adjust secondary button style */
+.file-upload .curved-button.secondary {
+    background-color: rgb(189, 170, 170); /* Adjust button color */
+}
+
+/* Adjust hover effect */
+.file-upload .curved-button:hover {
+    background-color: #068432; /* Change background color on hover */
+}
+
+/* Hide input file element */
+.file-upload .inputfile {
+    display: none;
+}
+
+#output-details{
+    background-image: url("static\css\economic_advancement-hero_1.png");
+    padding: 0;
+}
+
+
+/* Container for output boxes */
+.output-container {
+    display: flex;
+    justify-content: space-between; /* Arrange boxes horizontally with space between them */
+    align-items: flex-start;
+    margin-right: 100px;
+    width: 100%; /* Set width to 100% */
+    margin-top: 20px;
+     /* Adjust margin-top as needed */
+}
+
+/* Common style for output boxes */
+.output-box {
+    width:300px;
+    height: 400px; /* Set width to occupy almost half of the container */
+    padding: 20px;
+    margin-left: 400px;
+
+    background-color: #f2f2f2; /* Background color of the box */
+    border: 2px solid #c1cebe; /* Border color */
+    border-radius: 20px; /* Border radius */
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 25px; /* Include padding and border in the width */
+}
+
+.output-box2 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 50%;
+    height: 400px; /* Set width to occupy almost half of the container */
+    padding: 20px;
+    margin-right: 225px;
+
+    background-color: #ffffff; /* Background color of the box */
+    border: 2px solid #c1cebe; /* Border color */
+    border-radius: 20px; /* Border radius */
+    box-sizing: border-box;
+    /* Include padding and border in the width */
+}
+
+/* Style for title */
+.content123 {
+    /* Add styles to the container div */
+    padding: 20px; /* Padding around the content */
+    margin-top: 950px;
+    /* Center the content horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text horizontally */
+
+    
+}
+
+
+.content123 h1 {
+    font-family: 'Catalina', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -200px;
+    color: white; /* Text color */
+    font-size: 40px; /* Font size */
+    margin: 0; /* Remove default margin */
+}
+
+
+.outputbox-container {
+
+    height: 900px; /* Set width to occupy almost half of the container */
+    background-color: #ffffff; /* Background color of the box */
+    border: 2px solid #c1cebe; /* Border color */
+    border-radius: 20px; /* Border radius */
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+
+
+
+/* About */
+
+#About{
+    background-image: url('content-carousel-bg_1920x750.png');
+    background-size: cover;
+}
+/* Styles for the about section container */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0; 
+    width: 1000px; /* Adjust width as needed */
+    padding: 0 20px;
+    height: 700px;/* Adjust margin as needed */
+    ;
+}
+
+
+/* Styles for the about content */
+.about-content {
+    width: 1000px; /* Adjust width as needed */
+    padding: 50px;
+    height: 400px;
+    background-color: #ffffff; /* Background color of the box */
+    border: 2px transparent; /* Border color */
+    border-radius: 20px; /* Border radius */
+    box-sizing: border-box;
+    margin-left: -150px;
+   
+    
+}
+
+/* Style for title */
+.about-content h2 {
+    margin-top: 20px;
+    /* Remove default margin */
+    font-size: 40px;
+    font-weight: bold; /* Make the text bold */
+    font-style: italic;
+}
+
+.about-content p {
+    font-size: 30px;
+    font-family: 'Briem Hand', sans-serif;
+
+}
+
+
+.about-content{
+position: relative;
+z-index: 3;
+max-width: 900px;
+
+padding: 50px 130px 50px 100px;
+color: #fff;    
+-webkit-backdrop-filter: blur(7px);
+backdrop-filter: blur(7px);
+background-color: #82828233;
+border-top-right-radius: 300px;
+border-bottom-right-radius: 300px;
+min-height: 100%;
+display: flex;
+align-items: center;
+
+}
+
+
+
+
+/*   contact */
+
+/* Styles for the Contact section container */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+}
+
+.contact-container h2{
+    color: black !important;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: baseline;
+}
+/* Style for the main title */
+.title {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Styles for the contact content */
+.contact-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Add margin at the top */
+    gap: 100px;
+}
+
+/* Style for the email icon */
+.contact-mail,
+.contact-git {
+    width: 40px; /* Set the width of the icons */
+    margin-right: 10px; /* Add margin to the right of the icons */
+}
+
+/* Style for the links */
+.contact-content p {
+    margin: 0; /* Reset margin */
+}
+
+/* Style for the links */
+.contact-content p a {
+    color: #333; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Set font weight to bold */
+}
+
+/* Style for the links on hover */
+.contact-content p a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+#Contact{
+    background-color: white;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+    position: absolute ;
+    right: 0;
+  }
+
+
+.info2 {
+    font-size: 80px;
+}
